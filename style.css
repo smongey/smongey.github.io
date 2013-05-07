@@ -1,8 +1,16 @@
+/* Notes
+
+RooneyWeb-Light
+RooneyWeb-LightItalic
+RooneyWeb-Regular
+RooneyWeb-RegularItalic
+*/
 * {
   -webkit-font-smoothing: antialiased;
 }
 body {
   background: #fff;
+  font: 1.5em/2em "RooneyWeb-Light", Georgia, serif;
 }
 body header a#logo {
   background: url('../assets/aok.svg') no-repeat;

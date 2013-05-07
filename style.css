@@ -10,7 +10,7 @@ RooneyWeb-RegularItalic
 }
 body {
   background: #fff;
-  font: 1.5em/2em "RooneyWeb-Light", Georgia, serif;
+  font: 1.2em/1.7em "RooneyWeb-Light", Georgia, serif;
 }
 body header a#logo {
   background: url('../assets/aok.svg') no-repeat;

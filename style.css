@@ -11,3 +11,6 @@ body header a#logo {
   height: 40px;
   text-indent: -9999px;
 }
+body a {
+  color: #000;
+}

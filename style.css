@@ -5,8 +5,9 @@ body {
   background: #fff;
 }
 body header a#logo {
-  background: #333333 url('../assets/aok.svg') no-repeat;
+  background: url('../assets/aok.svg') no-repeat;
   display: block;
   width: 40px;
   height: 40px;
+  text-indent: -9999px;
 }

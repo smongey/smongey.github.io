@@ -65,11 +65,11 @@ AdelleSans-Bold
 	-o-transition:@a @b @c;
 	transition:@a @b @c;
 }
-
+@red: #FF5252;
 
 * 		{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-font-smoothing: antialiased; }
 
-body { background: #fff; font:1.2em/1.7em "RooneyWeb-Light", Georgia, serif; color:#FF5252;
+body { background: #fff; font:1.2em/1.7em "RooneyWeb-Light", Georgia, serif; color:@red;
 
 #wrap { width:1000px; margin: 0 auto; 
 
@@ -78,8 +78,9 @@ body { background: #fff; font:1.2em/1.7em "RooneyWeb-Light", Georgia, serif; col
 	}
 
 	article.post { margin: 100px 300px 0 300px; 
-		a {}
-		h1 {}
+		a { .animate(all, ease, .2s); }
+		a:hover { color:@red; }
+		h1 { margin: 0; padding: 0; }
 		div.date {}
 
 	}

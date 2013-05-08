@@ -146,7 +146,7 @@ AdelleSans-Bold
 body {
   background: #fff;
   font: 1.2em/1.7em "RooneyWeb-Light", Georgia, serif;
-  color: #FF5252;
+  color: #ff5252;
 }
 body #wrap {
   width: 1000px;
@@ -164,6 +164,19 @@ body #wrap header a#logo {
 }
 body #wrap article.post {
   margin: 100px 300px 0 300px;
+}
+body #wrap article.post a {
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
+}
+body #wrap article.post a:hover {
+  color: #ff5252;
+}
+body #wrap article.post h1 {
+  margin: 0;
+  padding: 0;
 }
 body #wrap footer {
   margin-left: 300px;

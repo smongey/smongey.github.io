@@ -162,14 +162,14 @@ body #wrap header a#logo {
   height: 40px;
   text-indent: -9999px;
 }
-body #wrap article {
-  margin-left: 300px;
+body #wrap article.post {
+  margin: 150px 300px 0 300px;
 }
 body #wrap footer {
   margin-left: 300px;
   height: 300px;
   padding: 40px 0;
-  border-top: 3px dotted #f2f2f2;
+  border-top: 1px dotted #d3d3d3;
 }
 body #wrap footer a.aok {
   font-family: "AdelleSans-Bold", Arial, sans-serif;

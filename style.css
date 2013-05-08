@@ -189,11 +189,12 @@ body #wrap article.post div.date {
 body #wrap article.post ul li {
   display: inline;
   padding: 0 10px 0 0;
-  font-size: .8em;
+  font-size: .7em;
 }
 body #wrap article.post ul li a {
   color: #999;
-  text-transform: capitalize;
+  text-transform: uppercase;
+  letter-spacing: 1px;
 }
 body #wrap article.post:hover div.date {
   color: #ff5252;

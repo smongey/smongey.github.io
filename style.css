@@ -22,3 +22,6 @@ body header a#logo {
 body a {
   color: #000;
 }
+body h1 {
+  font: 1.5em/2em "AdelleSans-Bold", Arial, sans-serif;
+}

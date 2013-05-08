@@ -152,7 +152,7 @@ body #wrap header a#logo {
   position: fixed;
   margin-left: 50px;
   top: 100px;
-  background: url('../assets/aok.svg') no-repeat;
+  background: url('./assets/aok.svg') no-repeat;
   display: block;
   width: 40px;
   height: 40px;
@@ -172,7 +172,9 @@ body #wrap strong,
 body #wrap b {
   font: 1.2em/1.7em "RooneyWeb-Regular", Georgia, serif;
 }
-body #wrap h1,
+body #wrap h1 {
+  font: 2em/2.1em "AdelleSans-Bold", Arial, sans-serif;
+}
 body #wrap h2,
 body #wrap h3,
 body #wrap h4,

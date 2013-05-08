@@ -186,6 +186,10 @@ body #wrap article.post div.date {
   -o-transition: all ease 0.2s;
   transition: all ease 0.2s;
 }
+body #wrap article.post ul li {
+  display: inline;
+  text-transform: Capitalize;
+}
 body #wrap article.post:hover div.date {
   color: #ff5252;
 }

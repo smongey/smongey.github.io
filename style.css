@@ -149,7 +149,7 @@ body {
   color: #ff5252;
 }
 body #wrap {
-  width: 1000px;
+  width: 800px;
   margin: 0 auto;
 }
 body #wrap header a#logo {
@@ -182,7 +182,6 @@ body #wrap article.post h1 {
 body #wrap footer {
   margin-left: 300px;
   height: 300px;
-  max-width: 500px;
   padding: 40px 0;
   border-top: 1px dotted #d3d3d3;
 }

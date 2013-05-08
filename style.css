@@ -163,7 +163,7 @@ body #wrap header a#logo {
   text-indent: -9999px;
 }
 body #wrap article.post {
-  margin: 100px 300px 0 300px;
+  margin: 100px 0 0 300px;
   padding: 0 0 50px 0;
 }
 body #wrap article.post a {
@@ -178,6 +178,12 @@ body #wrap article.post a:hover {
 body #wrap article.post h1 {
   margin: 0;
   padding: 0;
+}
+body #wrap article.post div.date {
+  color: #fff;
+}
+body #wrap article.post:hover div.date {
+  color: #ff5252;
 }
 body #wrap footer {
   margin-left: 300px;

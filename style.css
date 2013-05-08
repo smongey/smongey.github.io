@@ -207,7 +207,7 @@ body #wrap article.post span.home {
   font-size: 1.5em;
   line-height: 0em;
   display: inline-block;
-  margin-left: -45px;
+  margin-left: -50px;
 }
 body #wrap article.post:hover div.date {
   color: #ff5252;

@@ -199,6 +199,10 @@ body #wrap footer a.aok {
   font-family: "AdelleSans-Bold", Arial, sans-serif;
   text-decoration: none;
   border-bottom: 1px dotted #999;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 body #wrap footer p {
   color: #d3d3d3;
@@ -206,6 +210,9 @@ body #wrap footer p {
   -moz-transition: all ease 0.2s;
   -o-transition: all ease 0.2s;
   transition: all ease 0.2s;
+}
+body #wrap footer:hover a.aok {
+  color: #ff5252;
 }
 body #wrap footer:hover p {
   color: #999999;

@@ -149,7 +149,7 @@ body {
   color: #ff5252;
 }
 body #wrap {
-  width: 800px;
+  width: 900px;
   margin: 100px auto;
 }
 body #wrap header a#logo {
@@ -206,7 +206,7 @@ body #wrap article.post:hover div.date {
   color: #ff5252;
 }
 body #wrap footer {
-  margin-left: 300px;
+  margin-left: 400px;
   height: 300px;
   padding: 40px 0;
   border-top: 1px dotted #d3d3d3;
@@ -226,6 +226,7 @@ body #wrap footer p {
   -moz-transition: all ease 0.2s;
   -o-transition: all ease 0.2s;
   transition: all ease 0.2s;
+  margin-bottom: 30px;
 }
 body #wrap footer a:hover {
   border-bottom: 1px dotted #999;

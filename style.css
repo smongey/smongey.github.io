@@ -145,17 +145,20 @@ body {
   color: #FF5252;
 }
 body #wrap {
-  width: 1200px;
+  width: 1000px;
   margin: 0 auto;
 }
 body #wrap header a#logo {
   position: fixed;
-  padding: 100px;
+  left: 150px;
   background: url('../assets/aok.svg') no-repeat;
   display: block;
   width: 40px;
   height: 40px;
   text-indent: -9999px;
+}
+body #wrap article {
+  margin-left: 300px;
 }
 body #wrap a {
   color: #000;

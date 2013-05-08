@@ -196,6 +196,9 @@ body #wrap article.post ul li a {
   text-transform: uppercase;
   letter-spacing: 1px;
 }
+body #wrap article.post p {
+  margin-bottom: 30px;
+}
 body #wrap article.post:hover div.date {
   color: #ff5252;
 }

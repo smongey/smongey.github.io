@@ -181,6 +181,10 @@ body #wrap article.post h1 {
 }
 body #wrap article.post div.date {
   color: #fff;
+  -webkit-transition: all ease 0.2s;
+  -moz-transition: all ease 0.2s;
+  -o-transition: all ease 0.2s;
+  transition: all ease 0.2s;
 }
 body #wrap article.post:hover div.date {
   color: #ff5252;
@@ -208,6 +212,7 @@ body #wrap footer:hover p {
 }
 body #wrap a {
   color: #000;
+  text-decoration: none;
 }
 body #wrap i,
 body #wrap em {

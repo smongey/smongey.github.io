@@ -48,13 +48,15 @@ table {
 }
 
 /* A-ok Notes by @smngy
-
-RooneySansWeb-MediumItalic
+--
+RooneyWeb-Medium
+RooneyWeb-MediumItalic
+--
 RooneyWeb-Light
-AdelleSans-Bold
-RooneySansWeb-Medium
 RooneyWeb-LightItalic
-
+--
+AdelleSans-Bold
+--
 */
 
 * 		{ -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; -webkit-font-smoothing: antialiased; }
@@ -71,8 +73,9 @@ body { background: #fff; font:1.2em/1.7em "RooneyWeb-Light", Georgia, serif; col
 
 	// Globular
 	a { color:#000; }
-	i, em { font-family: "RooneyWeb-LightItalic", Georgia, serif; }
-	strong, b { font-family: "RooneyWeb-Regular", Georgia, serif; }
+	i, em { font-family: "RooneyWeb-LightItalic", Georgia, serif; font-style: normal; }
+	b, strong { font-family: "RooneyWeb-Medium", Georgia, serif; }
+	em strong, strong em { font-family: "RooneyWeb-MediumItalic", Georgia, serif; }
 		h1 { font:2em/2.1em "AdelleSans-Bold", Arial, sans-serif; }
 		h2, h3, h4, h5, h6 { font:1.5em/2em "AdelleSans-Bold", Arial, sans-serif; }
 

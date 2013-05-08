@@ -191,3 +191,8 @@ body #wrap h5,
 body #wrap h6 {
   font: 1.5em/2em "AdelleSans-Bold", Arial, sans-serif;
 }
+body #wrap a.aok {
+  font-family: "AdelleSans-Bold", Arial, sans-serif;
+  text-decoration: none;
+  border-bottom: 1px dotted #999;
+}

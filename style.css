@@ -150,7 +150,8 @@ body #wrap {
 }
 body #wrap header a#logo {
   position: fixed;
-  left: 150px;
+  margin-left: 50px;
+  top: 100px;
   background: url('../assets/aok.svg') no-repeat;
   display: block;
   width: 40px;

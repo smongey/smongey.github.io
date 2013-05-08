@@ -150,7 +150,7 @@ body {
 }
 body #wrap {
   width: 800px;
-  margin: 0 auto;
+  margin: 100px auto;
 }
 body #wrap header a#logo {
   position: fixed;
@@ -163,7 +163,7 @@ body #wrap header a#logo {
   text-indent: -9999px;
 }
 body #wrap article.post {
-  margin: 100px 0 0 300px;
+  margin: 0 0 0 300px;
   padding: 0 0 50px 0;
 }
 body #wrap article.post a {

@@ -139,17 +139,25 @@ RooneyWeb-RegularItalic
 body {
   background: #fff;
   font: 1.2em/1.7em "RooneyWeb-Light", Georgia, serif;
+  color: #FF5252;
 }
-body header a#logo {
+body #wrap {
+  width: 1200px;
+  margin: 0 auto;
+}
+body #wrap header a#logo {
   background: url('../assets/aok.svg') no-repeat;
   display: block;
   width: 40px;
   height: 40px;
   text-indent: -9999px;
 }
-body a {
+body #wrap a {
   color: #000;
 }
-body h1 {
+body #wrap i {
+  font: 1.2em/1.7em "RooneyWeb-LightItalic", Georgia, serif;
+}
+body #wrap h1 {
   font: 1.5em/2em "AdelleSans-Bold", Arial, sans-serif;
 }

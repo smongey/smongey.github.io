@@ -206,6 +206,7 @@ body #wrap article.post span.home {
   padding: 0 10px;
   font-size: 2em;
   line-height: 0em;
+  display: inline-block;
   margin-left: -45px;
 }
 body #wrap article.post:hover div.date {

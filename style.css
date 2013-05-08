@@ -168,8 +168,8 @@ body #wrap article {
 body #wrap footer {
   margin-left: 300px;
   height: 300px;
-  padding: 40px;
-  border-top: 1px dotted #f2f2f2;
+  padding: 40px 0;
+  border-top: 3px dotted #f2f2f2;
 }
 body #wrap footer a.aok {
   font-family: "AdelleSans-Bold", Arial, sans-serif;
@@ -177,7 +177,7 @@ body #wrap footer a.aok {
   border-bottom: 1px dotted #999;
 }
 body #wrap footer p {
-  color: #e6e6e6;
+  color: #d3d3d3;
   -webkit-transition: all ease 0.2s;
   -moz-transition: all ease 0.2s;
   -o-transition: all ease 0.2s;

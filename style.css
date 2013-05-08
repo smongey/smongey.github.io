@@ -164,8 +164,13 @@ body #wrap article {
 body #wrap a {
   color: #000;
 }
-body #wrap i {
+body #wrap i,
+body #wrap em {
   font: 1.2em/1.7em "RooneyWeb-LightItalic", Georgia, serif;
+}
+body #wrap strong,
+body #wrap b {
+  font: 1.2em/1.7em "RooneyWeb-Regular", Georgia, serif;
 }
 body #wrap h1,
 body #wrap h2,

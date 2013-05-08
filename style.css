@@ -203,8 +203,9 @@ body #wrap article.post p {
   margin-bottom: 30px;
 }
 body #wrap article.post span.home {
+  padding: 5px 10px;
   font-size: 2em;
-  margin-left: -30px;
+  margin-left: -40px;
 }
 body #wrap article.post:hover div.date {
   color: #ff5252;

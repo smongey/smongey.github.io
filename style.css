@@ -188,7 +188,9 @@ body #wrap article.post div.date {
 }
 body #wrap article.post ul li {
   display: inline;
-  text-transform: Capitalize;
+  text-transform: inherit;
+  padding: 0 10px 0 0;
+  font-size: .8em;
 }
 body #wrap article.post:hover div.date {
   color: #ff5252;

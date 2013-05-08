@@ -212,7 +212,7 @@ body #wrap footer p {
   transition: all ease 0.2s;
 }
 body #wrap footer a:hover {
-  border: 1px dotted #999;
+  border-bottom: 1px dotted #999;
 }
 body #wrap footer:hover a.aok {
   color: #ff5252;

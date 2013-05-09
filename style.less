@@ -80,12 +80,10 @@ body { background: #fff; font:1.2em/1.7em "RooneyWeb-Light", Georgia, serif; col
 		a { .animate(all, ease, .2s); color: @red; border-bottom: 1px dotted #999; }
 		a:hover { border-bottom: 1px dotted @red; }
 		h1 { margin: 0; padding: 0; }
-		div.date { color:#fff; .animate(all, ease, .2s); 
-			a {  border:none; }
-		}
+		div.date { color:#fff; .animate(all, ease, .2s); }
 		ul { margin:30px 0;
 			li { display: inline; padding: 0 10px 0 0; font-size: .7em; 
-				a { color:#999;  text-transform: uppercase; letter-spacing: 1px; }
+				a { color:#999;  text-transform: uppercase; letter-spacing: 1px; border:none; }
 			}
 		}
 		p { margin-bottom: 30px; }
@@ -93,9 +91,8 @@ body { background: #fff; font:1.2em/1.7em "RooneyWeb-Light", Georgia, serif; col
 		span.home { padding: 7px; font-size: 1.5em; line-height: 0em; display: inline-block; margin-left: -50px; }
 	}
 	article.post:hover { 
-		div.date { color:@red;
-			a { color:@red; border:none; }
-		}
+		div.date { color:@red; }
+		ul li a { border:none; color:@red; }
 	}
 
 	footer { margin-left: 300px; height:300px; padding: 40px 0; border-top: 1px dotted #d3d3d3;

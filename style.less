@@ -77,13 +77,14 @@ body { background: #fff; font:1.2em/1.7em "RooneyWeb-Light", Georgia, serif; col
 	}
 
 	article.post { margin: 0 0 0 300px; padding: 0 0 50px 0; 
-		a { .animate(all, ease, .2s); color: @red; border-bottom: 1px dotted #999; }
+		a { .animate(all, ease, .2s); color: darken(@red, 10%); border-bottom: 1px dotted #999; }
 		a:hover { border-bottom: 1px dotted @red; }
 		h1 { margin: 0; padding: 0; }
 		div.date { color:#fff; .animate(all, ease, .2s); }
 		ul { margin:30px 0;
 			li { display: inline; padding: 0 10px 0 0; font-size: .7em; 
 				a { color:#999;  text-transform: uppercase; letter-spacing: 1px; border:none; }
+				a:hover { border:none; color:@red; }
 			}
 		}
 		p { margin-bottom: 30px; }
@@ -92,7 +93,6 @@ body { background: #fff; font:1.2em/1.7em "RooneyWeb-Light", Georgia, serif; col
 	}
 	article.post:hover { 
 		div.date { color:@red; }
-		ul li a { border:none; color:@red; }
 	}
 
 	footer { margin-left: 300px; height:300px; padding: 40px 0; border-top: 1px dotted #d3d3d3;

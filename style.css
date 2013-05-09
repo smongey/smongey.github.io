@@ -171,7 +171,7 @@ body #wrap article.post a {
   -moz-transition: all ease 0.2s;
   -o-transition: all ease 0.2s;
   transition: all ease 0.2s;
-  color: #ff5252;
+  color: #ff1f1f;
   border-bottom: 1px dotted #999;
 }
 body #wrap article.post a:hover {
@@ -202,6 +202,10 @@ body #wrap article.post ul li a {
   letter-spacing: 1px;
   border: none;
 }
+body #wrap article.post ul li a:hover {
+  border: none;
+  color: #ff5252;
+}
 body #wrap article.post p {
   margin-bottom: 30px;
 }
@@ -216,10 +220,6 @@ body #wrap article.post span.home {
   margin-left: -50px;
 }
 body #wrap article.post:hover div.date {
-  color: #ff5252;
-}
-body #wrap article.post:hover ul li a {
-  border: none;
   color: #ff5252;
 }
 body #wrap footer {

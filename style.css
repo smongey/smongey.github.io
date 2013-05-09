@@ -171,11 +171,18 @@ body #wrap article.post a {
   -moz-transition: all ease 0.2s;
   -o-transition: all ease 0.2s;
   transition: all ease 0.2s;
-  color: #ff1f1f;
+  color: #eb0000;
   border-bottom: 1px dotted #999;
 }
 body #wrap article.post a:hover {
   border-bottom: 1px dotted #ff5252;
+}
+body #wrap article.post a.back {
+  border: none;
+}
+body #wrap article.post a.back:hover {
+  border: none;
+  color: #333;
 }
 body #wrap article.post h1 {
   margin: 0;

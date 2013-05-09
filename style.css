@@ -171,9 +171,11 @@ body #wrap article.post a {
   -moz-transition: all ease 0.2s;
   -o-transition: all ease 0.2s;
   transition: all ease 0.2s;
+  color: #ff5252;
+  border-bottom: 1px dotted #999;
 }
 body #wrap article.post a:hover {
-  color: #ff5252;
+  border-bottom: 1px dotted #ff5252;
 }
 body #wrap article.post h1 {
   margin: 0;
